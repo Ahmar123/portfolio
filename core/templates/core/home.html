@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class=" mt-5">
+<div class="text-center">
+	<img src="{% static 'core/images/pic.png' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px"></div>
+
+	<div class="mt-5 text-light mx-5" style="text-align: justify;">
+		<h1 class="font-weight-bold text-start st-font">Hello, </h1>
+
+		<div class="px-4" style="line-height: 2rem;">
+			<p style="text-indent: 100px;">I am <b class="text-warning">Ahmar Waheed Khan</b> having 1 year of full stack web development experience for globsl businessess, I offer the technical expertise you are seeking for your web developer position.</p>
+			<p>Since earing my bachelor's degree in internet and web development from university of engineering and technology Peshawar, I have served as a web developer at <b class="text-warning">Khan technology</b>, one of biggest premier digital marketing and web development firm.In this position, I have led web development projects for clients in diverse  industries including technology, manufacturing,hospitality,retail and financial servies.</p>
+			
+
+
+		</div>
+	</div>
+	<div class="text-center">
+	<a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+	<a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a></div>
+</div>
+{% endblock content %}

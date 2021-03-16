@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\core",
+    "\\core\\static",
+    "\\core\\static\\core",
+    "\\core\\static\\core\\css",
+    "\\core\\static\\core\\images",
+    "\\core\\static\\core\\js"
+  ],
+  "SelectedNode": "\\core\\static\\core\\js\\bootstrap.js",
+  "PreviewInSolutionExplorer": false
+}
